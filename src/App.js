@@ -1,16 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 import MainContainer from './Containers/MainContainer'
 import ArtistContainer from './Containers/ArtistContainer'
+import NavBar from './Components/NavBar'
 
-function App() {
-  return (
-    <div className="App">
-      <MainContainer />
-      <ArtistContainer />
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    artistClick: false
+  }
+
+  renderArtist = () => {
+    return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
+  }
+  render() {
+    return (
+      <div className="App">
+        <NavBar />
+        { this.renderArtist() }
+      </div>
+    );
+  }
 }
-
-export default App;
