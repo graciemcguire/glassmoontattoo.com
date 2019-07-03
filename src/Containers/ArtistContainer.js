@@ -4,7 +4,7 @@ export default class ArtistContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-background">
       here's some artists
       </div>
     )
