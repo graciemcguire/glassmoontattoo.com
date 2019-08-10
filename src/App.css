@@ -23,7 +23,7 @@ import background-img from "/Users/g/development/Personal/tattoo/public/3AX6ar.j
 
 .nav {
   height: 10em;
-  background-color: pink;
+  background-color: rgb(166,214,207);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -35,8 +35,8 @@ import background-img from "/Users/g/development/Personal/tattoo/public/3AX6ar.j
   align-items: center;
   display: flex;
 }
-/* 
-.details {
+
+/* .details {
   width: 100%;
   justify-content: center;
   align-items: center;

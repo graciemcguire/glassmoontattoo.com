@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color:rgb(237,222,220);
+    font-family: 'Libre Caslon Text', serif;
 }
 
 code {
