@@ -6,7 +6,7 @@ export default class ArtistContainer extends Component {
 
   mapArtists = () => {
     return artists.map(artist=> (
-      <ArtistCard key= { artist.id } artist={ artist }/>
+      <ArtistCard key={ artist.id }  artist={ artist }/>
     ))
   }
 
