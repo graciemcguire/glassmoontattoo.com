@@ -6,16 +6,24 @@ import NavBar from './Components/NavBar'
 
 export default class App extends Component {
   state = {
-    artistClick: true
+    artistClick: false
   }
 
   renderArtist = () => {
     return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
   }
+
+  handleClick = () => {
+    console.log(this.state);
+    this.setState= ({ artistClick: !this.state.artistClick })
+  }
+
   render() {
+    // console.log(this.state);
     return (
       <div className="App">
         <NavBar />
+        <button onClick={ this.handleClick() }>toggle to artist page</button>
         { this.renderArtist() }
       </div>
     );
