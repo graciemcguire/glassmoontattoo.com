@@ -14,8 +14,8 @@ export default class ArtistContainer extends Component {
     console.log(artists);
     return (
       <div className="main-background">
-      <h1>artists</h1>
-      { this.mapArtists() }
+        <h1>artists</h1>
+        { this.mapArtists() }
       </div>
     )
   }
