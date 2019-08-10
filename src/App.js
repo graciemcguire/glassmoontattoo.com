@@ -20,7 +20,8 @@ export default class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <button onClick={ this.handleClick }>toggle to artist page</button>
+
+        <button onClick={ this.handleClick() }>toggle to artist page</button>
         { this.renderContainer() }
       </div>
     );
