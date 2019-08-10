@@ -10,7 +10,7 @@ export default class App extends Component {
   }
 
   renderContainer = () => {
-    return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
+    return this.state.artistClick ? <MainContainer /> : <ArtistContainer />
   }
 
   handleClick = () => this.setState=({ artistClick: !this.state.artistClick })
@@ -20,7 +20,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <button onClick={ this.handleClick() }>toggle to artist page</button>
+        <button onClick={ this.handleClick }>toggle to artist page</button>
         { this.renderContainer() }
       </div>
     );
