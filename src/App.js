@@ -10,7 +10,7 @@ export default class App extends Component {
   }
 
   renderContainer = () => {
-    return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
+    return this.state.artistClick ? <MainContainer /> : <ArtistContainer />
   }
   handleClick = () => this.setState=({ artistClick: !this.state.artistClick })
 

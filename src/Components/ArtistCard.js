@@ -7,7 +7,7 @@ export default class ArtistCard extends Component {
     console.log(this.props);
     return (
       <div>
-      <h3>{ first_name }</h3>
+      <h3>{ `${first_name} ${last_name}` }</h3>
       </div>
     );
   }

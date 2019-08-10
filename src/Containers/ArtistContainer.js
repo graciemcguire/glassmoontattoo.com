@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { artists } from '../artistdb.json'
+import ArtistCard from '../Components/ArtistCard'
 
 export default class ArtistContainer extends Component {
 
   mapArtists = () => {
     return artists.map(artist=> (
-      artist.first_name
+      <ArtistCard key={ artist.id }  artist={ artist }/>
     ))
   }
 
