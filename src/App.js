@@ -9,7 +9,7 @@ export default class App extends Component {
     artistClick: false
   }
 
-  renderArtist = () => {
+  renderContainer = () => {
     return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
   }
 
@@ -24,7 +24,7 @@ export default class App extends Component {
       <div className="App">
         <NavBar />
         <button onClick={ this.handleClick() }>toggle to artist page</button>
-        { this.renderArtist() }
+        { this.renderContainer() }
       </div>
     );
   }
