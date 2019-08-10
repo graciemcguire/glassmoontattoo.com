@@ -1,0 +1,22 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "first_name": "Megan",
+      "last_name": "Borte",
+      "email": "tattoosbybenji@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "email": "ann@codingthesmartway.com"
+    }
+  ]
+}
