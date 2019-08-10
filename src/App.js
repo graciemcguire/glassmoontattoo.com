@@ -9,22 +9,17 @@ export default class App extends Component {
     artistClick: false
   }
 
-  renderArtist = () => {
-    return !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
-  }
+  renderContainer = () => !this.state.artistClick ? <MainContainer /> : <ArtistContainer />
 
-  handleClick = () => {
-    console.log(this.state);
-    this.setState= ({ artistClick: !this.state.artistClick })
-  }
+  handleClick = () => this.setState=({ artistClick: !this.state.artistClick })
 
   render() {
-    // console.log(this.state);
+    console.log(this.state);
     return (
       <div className="App">
         <NavBar />
-        <button onClick={ this.handleClick() }>toggle to artist page</button>
-        { this.renderArtist() }
+        <button onClick={ this.handleClick }>toggle to artist page</button>
+        { this.renderContainer() }
       </div>
     );
   }
