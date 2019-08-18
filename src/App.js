@@ -5,12 +5,14 @@ import ArtistContainer from './Containers/ArtistContainer'
 import NavBar from './Components/NavBar'
 
 export default class App extends Component {
+
   state = {
     artistClick: false
   }
 
   renderContainer = () => {
-    return this.state.artistClick ? <MainContainer /> : <ArtistContainer />
+    return this.state.artistClick ?
+    <MainContainer /> : <ArtistContainer />
   }
 
   handleClick = () => this.setState=({ artistClick: !this.state.artistClick })
