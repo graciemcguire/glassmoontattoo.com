@@ -17,10 +17,3 @@ export default class ArtistCard extends Component {
     );
   }
 }
-
-fbsdf
-fwf
-bfs
-bdf
-sb
-sw

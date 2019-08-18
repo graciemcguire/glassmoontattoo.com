@@ -7,7 +7,7 @@ import NavBar from './Components/NavBar'
 export default class App extends Component {
 
   state = {
-    artistClick: false
+    artistClick: true
   }
 
   renderContainer = () => {
