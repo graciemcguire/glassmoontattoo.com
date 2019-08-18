@@ -1,11 +1,8 @@
-import background-img from "/Users/g/development/Personal/tattoo/public/3AX6ar.jpg"
-
 .App {
   text-align: center;
 }
 
 .main-container {
-    background-image: url('./images/3AX6ar.jpg');
     justify-content: center;
     align-items: center;
     padding: 20px;
