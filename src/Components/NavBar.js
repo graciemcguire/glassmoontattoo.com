@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylesheets/nav.scss'
 
 export default class NavBar extends Component {
 
@@ -6,8 +7,13 @@ export default class NavBar extends Component {
     return (
       <div className='nav'>
         <h1 className='logo'>glass moon tattoo</h1>
-        <div className='details'>
-          <h2>denver</h2>
+        <h2 className='denver'>Denver, CO</h2>
+        <div>
+          <ul className='nav-links'>
+            <li>about</li>
+            <li>artists</li>
+            <li>contact us</li>
+          </ul>
         </div>
       </div>
     )
