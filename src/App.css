@@ -19,8 +19,10 @@
 }
 
 .nav {
-  height: 10em;
-  background-color: rgb(166,214,207);
+  height: 11em;
+  padding-bottom: 2em;
+  /*background-color: rgb(166,214,207);*/
+  background-color: #EFC7C2;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -33,9 +35,9 @@
   display: flex;
 }
 
-/* .details {
+ .details {
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
-} */
+}

@@ -10,9 +10,9 @@ export default class NavBar extends Component {
         <h2 className='denver'>Denver, CO</h2>
         <div>
           <ul className='nav-links'>
-            <li>about</li>
-            <li>artists</li>
-            <li>contact us</li>
+            <li className='nav-link'>about</li>
+            <li className='nav-link'>artists</li>
+            <li className='nav-link'>contact us</li>
           </ul>
         </div>
       </div>
