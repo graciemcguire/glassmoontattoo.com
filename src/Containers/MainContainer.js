@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import NavBar from '../Components/NavBar'
+import CarouselContainer from '../Components/CarouselContainer'
 
 export default class MainContainer extends Component {
 
   render() {
     return (
       <div className="main-container">
-
+        <CarouselContainer/>
         <div className="component">
           <h1>full site coming soon k</h1>
           <h3>carousel - ananas</h3>
