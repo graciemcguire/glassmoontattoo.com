@@ -16,6 +16,7 @@
   background-color: black;
   justify-content: center;
   color: white;
+  margin:auto;
 }
 
 .nav {
@@ -43,7 +44,7 @@
 }
 
 .carousel-container{
-  width: cover;
+  width: 80%;
   justify-content: center;
   margin: auto;
 
