@@ -1,7 +1,5 @@
 .denver{
-  margin: 4em 0 0 -8.5em;
-  padding: 0.5em;
-  vertical-align: middle;
+
   /*border: 1px solid blue;*/
 }
 
@@ -18,10 +16,17 @@
   padding: 1em;
   font-family: 'Arapey', serif;
   text-decoration: none;
-  color: lavender;
+  color: black;
 }
 
 .nav-link:hover{
   color: #1DC1A9;
   font-style: italic;
+}
+
+.nav {
+  font-family: 'Arapey', serif;
+  text-align: center;
+  padding: 0.5em;
+  vertical-align: middle;
 }

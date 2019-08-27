@@ -11,7 +11,6 @@ export default class App extends Component {
     console.log(this.state);
     return (
       <Fragment>
-        <NavBar />
         <Switch>
           <Route
             path="/artists"
