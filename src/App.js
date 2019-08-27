@@ -1,30 +1,27 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './App.css';
 import MainContainer from './Containers/MainContainer'
 import ArtistContainer from './Containers/ArtistContainer'
 import NavBar from './Components/NavBar'
+import { Switch, Route } from 'react-router-dom'
 
 export default class App extends Component {
-
-  state = {
-    artistClick: true
-  }
-
-  renderContainer = () => {
-    return this.state.artistClick ?
-    <MainContainer /> : <ArtistContainer />
-  }
-
-  handleClick = () => this.setState=({ artistClick: !this.state.artistClick })
 
   render() {
     console.log(this.state);
     return (
-      <div className="App">
+      <Fragment>
         <NavBar />
-        { this.renderContainer() }
-        <button onClick={ this.handleClick() }>toggle to artist page</button>
-      </div>
+        <Switch>
+          <Route
+            path="/"
+            component={ MainContainer }
+            />
+          <Route
+            path="/artists"
+            component={ ArtistContainer }/>
+        </Switch>
+      </Fragment>
     );
   }
 }
