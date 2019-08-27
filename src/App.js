@@ -18,6 +18,14 @@ export default class App extends Component {
             component={ ArtistContainer }
           />
           <Route
+            path="/about"
+            component={ '' }
+          />
+          <Route
+            path="/contact"
+            component={ '' }
+          />
+          <Route
             path="/"
             component={ MainContainer }
           />

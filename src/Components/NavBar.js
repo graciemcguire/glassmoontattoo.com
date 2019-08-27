@@ -12,6 +12,7 @@ class NavBar extends Component {
         <h2 className='denver'>Denver, CO</h2>
         <div>
           <div className='nav-links'>
+            <Link className='nav-link' to={ '/' }> home </Link>
             <Link className='nav-link' to={ '/about' }> about </Link>
             <Link className='nav-link' to={ '/artists' }> artists </Link>
             <Link className='nav-link' to={ '/contact' }> contact us </Link>
