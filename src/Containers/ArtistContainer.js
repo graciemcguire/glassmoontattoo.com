@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { artists } from '../artistdb.json'
 import ArtistCard from '../Components/ArtistCard'
+import NavBar from '../Components/NavBar'
 
 export default class ArtistContainer extends Component {
 
@@ -13,10 +14,13 @@ export default class ArtistContainer extends Component {
   render() {
     console.log(artists);
     return (
-      <div className="main-background">
-        <h1>artists</h1>
-        { this.mapArtists() }
-      </div>
+      <Fragment>
+        <NavBar />
+        <div className="main-background">
+          <h1>artists</h1>
+          { this.mapArtists() }
+        </div>
+      </ Fragment>
     )
   }
 }
