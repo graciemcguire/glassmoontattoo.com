@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import '../stylesheets/nav.scss'
+import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom'
 
-export default class NavBar extends Component {
+class NavBar extends Component {
 
   render() {
     return (
@@ -9,13 +11,15 @@ export default class NavBar extends Component {
         <h1 className='logo'>glass moon tattoo</h1>
         <h2 className='denver'>Denver, CO</h2>
         <div>
-          <ul className='nav-links'>
-            <li className='nav-link'>about</li>
-            <li className='nav-link'>artists</li>
-            <li className='nav-link'>contact us</li>
-          </ul>
+          <div className='nav-links'>
+            <Link className='nav-link' to={ '/about' }> about </Link>
+            <Link className='nav-link' to={ '/artists' }> artists </Link>
+            <Link className='nav-link' to={ '/contact' }> contact us </Link>
+          </div>
         </div>
       </div>
     )
   }
 }
+
+export default withRouter(NavBar)

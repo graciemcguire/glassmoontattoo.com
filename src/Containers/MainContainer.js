@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from '../Components/NavBar'
-import CarouselContainer from '../Components/CarouselContainer'
+import NavBar from '../Components/NavBar';
+import CarouselContainer from '../Components/CarouselContainer';
+
 
 export default class MainContainer extends Component {
 
