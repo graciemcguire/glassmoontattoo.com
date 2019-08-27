@@ -13,13 +13,14 @@ export default class App extends Component {
       <Fragment>
         <NavBar />
         <Switch>
-          <Route
-            path="/"
-            component={ MainContainer }
-            />
+
           <Route
             path="/artists"
             component={ ArtistContainer }/>
+            <Route
+              path="/"
+              component={ MainContainer }
+              />
         </Switch>
       </Fragment>
     );
