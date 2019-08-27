@@ -16,9 +16,12 @@
 .nav-link{
   display: inline-block;
   padding: 1em;
+  font-family: 'Arapey', serif;
+  text-decoration: none;
+  color: lavender;
 }
 
 .nav-link:hover{
   color: #1DC1A9;
-  font-weight: bold;
+  font-style: italic;
 }
