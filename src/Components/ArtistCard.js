@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { buildUrl } from 'react-instafeed'
+import CarouselContainer from './CarouselContainer';
 
 export default class ArtistCard extends Component {
 
@@ -11,6 +12,7 @@ export default class ArtistCard extends Component {
 
     return (
       <div>
+        <CarouselContainer/>
         <img alt={ full_name } src={ image }/>
         <h3>{ full_name }</h3>
       </div>
