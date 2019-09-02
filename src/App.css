@@ -44,8 +44,15 @@
 }
 
 .carousel-container{
-  width: 80%;
+  width: 60%;
   justify-content: center;
   margin: auto;
+}
 
+.carousel {
+  height: auto;
+}
+
+.carousel, .slide{
+  height: 25em;
 }
