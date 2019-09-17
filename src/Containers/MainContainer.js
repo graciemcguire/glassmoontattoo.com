@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom'
 import logo from '../logo.png'
-// import '../stylesheets/nav.scss'
 import '../stylesheets/main.scss'
 
 class MainContainer extends Component {
@@ -27,7 +26,7 @@ export default withRouter(MainContainer)
 //
 // <div className="component">
 //   <h1>full site coming soon k</h1>
-//   <h3>carousel - ananas</h3>
+//   <h3>carousel - ananas</h3>no c
 //   <h3>location - g</h3>
 //   <h3>contact info - g</h3>
 //   <h3>form? - g</h3>
