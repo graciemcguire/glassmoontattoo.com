@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/glassmoontattoo/static/css/main.1eaf5c99.chunk.css",
-    "main.js": "/glassmoontattoo/static/js/main.7f37574e.chunk.js",
-    "main.js.map": "/glassmoontattoo/static/js/main.7f37574e.chunk.js.map",
-    "runtime~main.js": "/glassmoontattoo/static/js/runtime~main.fa799d9c.js",
-    "runtime~main.js.map": "/glassmoontattoo/static/js/runtime~main.fa799d9c.js.map",
-    "static/js/2.0b8ddcc2.chunk.js": "/glassmoontattoo/static/js/2.0b8ddcc2.chunk.js",
-    "static/js/2.0b8ddcc2.chunk.js.map": "/glassmoontattoo/static/js/2.0b8ddcc2.chunk.js.map",
-    "index.html": "/glassmoontattoo/index.html",
-    "precache-manifest.2143e1368447fca6195c721a0c47c752.js": "/glassmoontattoo/precache-manifest.2143e1368447fca6195c721a0c47c752.js",
-    "service-worker.js": "/glassmoontattoo/service-worker.js",
-    "static/css/main.1eaf5c99.chunk.css.map": "/glassmoontattoo/static/css/main.1eaf5c99.chunk.css.map",
-    "static/media/logo.png": "/glassmoontattoo/static/media/logo.86f0c529.png"
+    "main.css": "/static/css/main.1eaf5c99.chunk.css",
+    "main.js": "/static/js/main.5ee9e9ac.chunk.js",
+    "main.js.map": "/static/js/main.5ee9e9ac.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.0b8ddcc2.chunk.js": "/static/js/2.0b8ddcc2.chunk.js",
+    "static/js/2.0b8ddcc2.chunk.js.map": "/static/js/2.0b8ddcc2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d3ef27e1ce5ce05c804372ae632e7f84.js": "/precache-manifest.d3ef27e1ce5ce05c804372ae632e7f84.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1eaf5c99.chunk.css.map": "/static/css/main.1eaf5c99.chunk.css.map",
+    "static/media/logo.png": "/static/media/logo.86f0c529.png"
   }
 }
