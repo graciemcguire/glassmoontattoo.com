@@ -2,7 +2,7 @@
   "name": "tattoo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://graciemcguire.github.io/tattoo"
+  "homepage": "http://graciemcguire.github.io/glassmoontattoo",
   "dependencies": {
     "instafeed.js": "^1.4.1",
     "node-sass": "^4.12.0",
