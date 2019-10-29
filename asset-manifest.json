@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tattoo/static/css/main.1eaf5c99.chunk.css",
-    "main.js": "/tattoo/static/js/main.cd05f135.chunk.js",
-    "main.js.map": "/tattoo/static/js/main.cd05f135.chunk.js.map",
-    "runtime~main.js": "/tattoo/static/js/runtime~main.58b5e415.js",
-    "runtime~main.js.map": "/tattoo/static/js/runtime~main.58b5e415.js.map",
-    "static/js/2.0b8ddcc2.chunk.js": "/tattoo/static/js/2.0b8ddcc2.chunk.js",
-    "static/js/2.0b8ddcc2.chunk.js.map": "/tattoo/static/js/2.0b8ddcc2.chunk.js.map",
-    "index.html": "/tattoo/index.html",
-    "precache-manifest.507698b6009b9ce3934e9e2ceaceb278.js": "/tattoo/precache-manifest.507698b6009b9ce3934e9e2ceaceb278.js",
-    "service-worker.js": "/tattoo/service-worker.js",
-    "static/css/main.1eaf5c99.chunk.css.map": "/tattoo/static/css/main.1eaf5c99.chunk.css.map",
-    "static/media/logo.png": "/tattoo/static/media/logo.86f0c529.png"
+    "main.css": "/glassmoontattoo/static/css/main.1eaf5c99.chunk.css",
+    "main.js": "/glassmoontattoo/static/js/main.7f37574e.chunk.js",
+    "main.js.map": "/glassmoontattoo/static/js/main.7f37574e.chunk.js.map",
+    "runtime~main.js": "/glassmoontattoo/static/js/runtime~main.fa799d9c.js",
+    "runtime~main.js.map": "/glassmoontattoo/static/js/runtime~main.fa799d9c.js.map",
+    "static/js/2.0b8ddcc2.chunk.js": "/glassmoontattoo/static/js/2.0b8ddcc2.chunk.js",
+    "static/js/2.0b8ddcc2.chunk.js.map": "/glassmoontattoo/static/js/2.0b8ddcc2.chunk.js.map",
+    "index.html": "/glassmoontattoo/index.html",
+    "precache-manifest.2143e1368447fca6195c721a0c47c752.js": "/glassmoontattoo/precache-manifest.2143e1368447fca6195c721a0c47c752.js",
+    "service-worker.js": "/glassmoontattoo/service-worker.js",
+    "static/css/main.1eaf5c99.chunk.css.map": "/glassmoontattoo/static/css/main.1eaf5c99.chunk.css.map",
+    "static/media/logo.png": "/glassmoontattoo/static/media/logo.86f0c529.png"
   }
 }
