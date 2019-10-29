@@ -6,7 +6,7 @@ export default class About extends Component {
     return(
       <Fragment >
         <NavBar />
-        <h1>about</h1>
+        <h1>ABOUT</h1>
       </ Fragment>
     )
   }

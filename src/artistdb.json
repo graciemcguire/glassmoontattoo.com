@@ -5,19 +5,21 @@
       "first_name": "Megan",
       "last_name": "Bortle",
       "email": "tattoosbybenji@gmail.com",
-      "image": null
+      "image": "../images/megan.jpg"
     },
     {
       "id": 2,
       "first_name": "Carly",
       "last_name": "Zehring",
-      "email": "tattoosbybenji@gmail.com"
+      "email": "tattoosbybenji@gmail.com",
+      "image": null
     },
     {
       "id": 3,
       "first_name": "Ann",
       "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
+      "email": "ann@codingthesmartway.com",
+      "image": null
     }
   ]
 }

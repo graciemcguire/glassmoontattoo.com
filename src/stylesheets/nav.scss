@@ -1,15 +1,9 @@
-.denver{
-
-  /*border: 1px solid blue;*/
-}
-
-.nav-links{
-  list-style-type: none;
-  text-align: center;
-  margin: 10em 0 0 -16em;
-  padding-top: 1em;
-  /*border: 1px solid blue;*/
-}
+// .nav-links{
+//   list-style-type: none;
+//   text-align: center;
+//   margin: 10em 0 0 -16em;
+//   padding-top: 1em;
+// }
 
 .nav-link{
   display: inline-block;
@@ -22,11 +16,14 @@
 .nav-link:hover{
   color: #1DC1A9;
   font-style: italic;
+  cursor: pointer;
 }
 
 .nav {
   font-family: 'Arapey', serif;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
   padding: 0.5em;
-  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
 }

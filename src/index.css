@@ -9,7 +9,12 @@ body {
     font-family: 'Libre Caslon Text', serif;
 }
 
-code {
+img {
+  /* width: 30vw; */
+  height: 30vh;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */

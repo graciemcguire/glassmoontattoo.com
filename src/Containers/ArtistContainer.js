@@ -16,7 +16,7 @@ export default class ArtistContainer extends Component {
     return (
       <Fragment>
         <NavBar />
-        <div className="main-background">
+        <div>
           <h1>artists</h1>
           { this.mapArtists() }
         </div>
