@@ -6,7 +6,7 @@ export default class Contact extends Component {
     return(
       <Fragment >
         <NavBar />
-        <h1>contact</h1>
+        <h1>CONTACT</h1>
       </ Fragment>
     )
   }
