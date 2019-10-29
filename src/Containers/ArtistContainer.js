@@ -16,8 +16,8 @@ export default class ArtistContainer extends Component {
     return (
       <Fragment >
         <NavBar />
-        <div className='artist-section'>
-          <img className='artists-image' src='../images/artists.jpg'/>
+        <div className='about-section'>
+          <img className='about-image' src='../images/artists.jpg'/>
           <h3>ARTISTS</h3>
           { this.mapArtists() }
         </div>
