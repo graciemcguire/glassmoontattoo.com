@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tattoo/static/css/main.1eaf5c99.chunk.css",
+    "main.js": "/tattoo/static/js/main.cd05f135.chunk.js",
+    "main.js.map": "/tattoo/static/js/main.cd05f135.chunk.js.map",
+    "runtime~main.js": "/tattoo/static/js/runtime~main.58b5e415.js",
+    "runtime~main.js.map": "/tattoo/static/js/runtime~main.58b5e415.js.map",
+    "static/js/2.0b8ddcc2.chunk.js": "/tattoo/static/js/2.0b8ddcc2.chunk.js",
+    "static/js/2.0b8ddcc2.chunk.js.map": "/tattoo/static/js/2.0b8ddcc2.chunk.js.map",
+    "index.html": "/tattoo/index.html",
+    "precache-manifest.507698b6009b9ce3934e9e2ceaceb278.js": "/tattoo/precache-manifest.507698b6009b9ce3934e9e2ceaceb278.js",
+    "service-worker.js": "/tattoo/service-worker.js",
+    "static/css/main.1eaf5c99.chunk.css.map": "/tattoo/static/css/main.1eaf5c99.chunk.css.map",
+    "static/media/logo.png": "/tattoo/static/media/logo.86f0c529.png"
+  }
+}
