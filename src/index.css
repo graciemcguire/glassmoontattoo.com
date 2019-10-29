@@ -14,7 +14,46 @@ img {
   height: 30vh;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+.nav-link{
+  display: inline-block;
+  padding: 1em;
+  font-family: 'Arapey', serif;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover{
+  color: #1DC1A9;
+  font-style: italic;
+  /* font-weight: bold; */
+  /* cursor: pointer; */
+}
+
+.nav {
+  font-family: 'Arapey', serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+  padding: 0em 10em;
+  /* width: 30vw; */
+}
+/* p {
+  padding: 0 20em;
 } */
