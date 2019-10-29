@@ -1,8 +1,8 @@
 {
-  "name": "tattoo",
+  "homepage": "https://trashislandbk.com",
+  "name": "glassmoontattoo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://graciemcguire.github.io/glassmoontattoo",
   "dependencies": {
     "instafeed.js": "^1.4.1",
     "node-sass": "^4.12.0",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy" : "npm run build && gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

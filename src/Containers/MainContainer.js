@@ -7,6 +7,8 @@ import logo from '../logo.png'
 class MainContainer extends Component {
 
   render() {
+    console.log("Made with ❤️ by Gracie McGuire in 2019");
+    console.log("github.com/graciemcguire 🏝");
     return (
       <div className="main-container">
         <img className='logo-main' src={logo} alt='glass moon tattoo'/>
