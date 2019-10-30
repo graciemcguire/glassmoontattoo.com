@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/glassmoontattoo.com/precache-manifest.3bd64b72e5f951af2480632f23562ed2.js"
+  "/glassmoontattoo.com/precache-manifest.75351c3460f2ec6948af74975f88f7bd.js"
 );
 
 self.addEventListener('message', (event) => {
