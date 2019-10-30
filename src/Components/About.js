@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import NavBar from './NavBar'
+import instaLogo from '../insta.svg'
+import emailLogo from '../email.svg'
 
 export default class About extends Component {
   render(){
@@ -7,7 +9,7 @@ export default class About extends Component {
       <Fragment >
         <NavBar />
         <div className='about-section'>
-          <img className='about-image' src='/images/about.jpg'/>
+          <img className='about-image' src='/images/about.jpg' alt='glassmoontattoo'/>
           <h3>ABOUT</h3>
           <p className='about-text'>De possumus arbitrantur o ex si velit elit ipsum. Noster voluptate ut
             imitarentur ita id aute mentitum. Legam proident sempiternum, iis ullamco
@@ -21,6 +23,16 @@ export default class About extends Component {
             singulis export laborum, elit probant cohaerescant, pariatur ita sint. Deserunt
             eruditionem o constias ab nam noster mentitum litteris, elit probant te
             relinqueret, iudicem ipsum probant quamquam.    </p>
+        </div>
+
+        <div className= 'links'>
+          <a href= "http://www.instagram.com/glassmoontattoo" target="_blank" rel="noopener noreferrer" >
+            <img className='link-images' src={ instaLogo } alt='instagram'/>
+          </a>
+
+          <a href= "mailto:contact@glassmoontattoo.com" >
+            <img className='link-images' src={ emailLogo } alt='email'/>
+          </a>
         </div>
       </ Fragment>
     )

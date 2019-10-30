@@ -9,8 +9,6 @@ import { Switch, Route } from 'react-router-dom'
 export default class App extends Component {
 
   render() {
-    console.log("Made with ❤️ by Gracie McGuire in 2019");
-    console.log("github.com/graciemcguire 🏝");
     return (
       <Fragment>
         <Switch>
