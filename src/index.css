@@ -25,7 +25,7 @@ img {
   color: #1DC1A9;
   font-style: italic;
   /* font-weight: bold; */
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .nav {

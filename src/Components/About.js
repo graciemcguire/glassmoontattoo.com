@@ -7,7 +7,7 @@ export default class About extends Component {
       <Fragment >
         <NavBar />
         <div className='about-section'>
-          <img className='about-image' src='../images/about.jpg'/>
+          <img className='about-image' src='/images/about.jpg'/>
           <h3>ABOUT</h3>
           <p className='about-text'>De possumus arbitrantur o ex si velit elit ipsum. Noster voluptate ut
             imitarentur ita id aute mentitum. Legam proident sempiternum, iis ullamco

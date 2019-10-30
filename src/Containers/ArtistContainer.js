@@ -12,12 +12,11 @@ export default class ArtistContainer extends Component {
   }
 
   render() {
-    console.log(artists);
     return (
       <Fragment >
         <NavBar />
         <div className='about-section'>
-          <img className='about-image' src='../images/artists.jpg'/>
+          <img className='about-image' src= '/images/artists.jpg' />
           <h3>ARTISTS</h3>
           { this.mapArtists() }
         </div>
