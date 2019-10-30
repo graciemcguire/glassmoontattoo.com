@@ -22,7 +22,7 @@ export default class About extends Component {
             voluptate an comprehenderit. Sint excepteur e praetermissum, quis cohaerescant
             singulis export laborum, elit probant cohaerescant, pariatur ita sint. Deserunt
             eruditionem o constias ab nam noster mentitum litteris, elit probant te
-            relinqueret, iudicem ipsum probant quamquam.    </p>
+            relinqueret, iudicem ipsum probant quamquam. </p>
         </div>
 
         <div className= 'links'>
