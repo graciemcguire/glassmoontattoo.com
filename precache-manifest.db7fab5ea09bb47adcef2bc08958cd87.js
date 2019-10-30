@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1aac8fa2051d89603975cab8b8a651e3",
+    "revision": "c959d9d3643ffa0c75faa5468390eb3d",
     "url": "/glassmoontattoo.com/index.html"
   },
   {
-    "revision": "bc799d03752690471b85",
-    "url": "/glassmoontattoo.com/static/css/main.1eaf5c99.chunk.css"
+    "revision": "88d6d3c48b496127d995",
+    "url": "/glassmoontattoo.com/static/css/main.2349fe57.chunk.css"
   },
   {
     "revision": "5ce0fc101fa0410bec8f",
     "url": "/glassmoontattoo.com/static/js/2.b20fe1f0.chunk.js"
   },
   {
-    "revision": "bc799d03752690471b85",
-    "url": "/glassmoontattoo.com/static/js/main.5d38fb87.chunk.js"
+    "revision": "88d6d3c48b496127d995",
+    "url": "/glassmoontattoo.com/static/js/main.f0690db2.chunk.js"
   },
   {
     "revision": "bc0bbda06c668f8212be",
