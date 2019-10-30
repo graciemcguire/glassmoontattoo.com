@@ -43,6 +43,7 @@ img {
   flex-direction: column;
   justify-content: center;
   margin-top: 20%;
+  margin-bottom: 20px;
 }
 
 .home-nav-links {
@@ -62,6 +63,7 @@ img {
   justify-content: center;
   margin: 0 auto;
   max-width: 450px;
+  margin-bottom: 20px;
 }
 
 .about-text {
@@ -88,6 +90,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
 }
 .link-images {
   width: 2em;
