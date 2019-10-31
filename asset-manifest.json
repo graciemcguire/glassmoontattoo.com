@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec9ead5a.chunk.css",
-    "main.js": "/static/js/main.9a1c1bfc.chunk.js",
-    "main.js.map": "/static/js/main.9a1c1bfc.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.5b783248.chunk.js": "/static/js/2.5b783248.chunk.js",
-    "static/js/2.5b783248.chunk.js.map": "/static/js/2.5b783248.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c5467031f198f7bc987153e6a6b66d9a.js": "/precache-manifest.c5467031f198f7bc987153e6a6b66d9a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ec9ead5a.chunk.css.map": "/static/css/main.ec9ead5a.chunk.css.map",
-    "static/media/email.svg": "/static/media/email.69680383.svg",
-    "static/media/insta.svg": "/static/media/insta.954d2e21.svg",
-    "static/media/logo.png": "/static/media/logo.86f0c529.png"
+    "main.css": "/glassmoontattoo.com/static/css/main.ec9ead5a.chunk.css",
+    "main.js": "/glassmoontattoo.com/static/js/main.853ce847.chunk.js",
+    "main.js.map": "/glassmoontattoo.com/static/js/main.853ce847.chunk.js.map",
+    "runtime~main.js": "/glassmoontattoo.com/static/js/runtime~main.d5032b8e.js",
+    "runtime~main.js.map": "/glassmoontattoo.com/static/js/runtime~main.d5032b8e.js.map",
+    "static/js/2.5b783248.chunk.js": "/glassmoontattoo.com/static/js/2.5b783248.chunk.js",
+    "static/js/2.5b783248.chunk.js.map": "/glassmoontattoo.com/static/js/2.5b783248.chunk.js.map",
+    "index.html": "/glassmoontattoo.com/index.html",
+    "precache-manifest.cf44ae637eb7f4a308f25ca3b12f4a12.js": "/glassmoontattoo.com/precache-manifest.cf44ae637eb7f4a308f25ca3b12f4a12.js",
+    "service-worker.js": "/glassmoontattoo.com/service-worker.js",
+    "static/css/main.ec9ead5a.chunk.css.map": "/glassmoontattoo.com/static/css/main.ec9ead5a.chunk.css.map",
+    "static/media/email.svg": "/glassmoontattoo.com/static/media/email.69680383.svg",
+    "static/media/insta.svg": "/glassmoontattoo.com/static/media/insta.954d2e21.svg",
+    "static/media/logo.png": "/glassmoontattoo.com/static/media/logo.86f0c529.png"
   }
 }
