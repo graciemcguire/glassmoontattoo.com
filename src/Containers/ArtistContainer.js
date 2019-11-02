@@ -16,7 +16,7 @@ export default class ArtistContainer extends Component {
       <Fragment >
         <NavBar />
         <div className='about-section'>
-          <img className='about-image' src= '/images/artists.jpg' alt='glassmoontattoo'/>
+          <img className='about-image' src={`${process.env.PUBLIC_URL}/images/artists.jpg`} alt='glassmoontattoo'/>
           <h3>ARTISTS</h3>
           { this.mapArtists() }
         </div>
