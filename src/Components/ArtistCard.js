@@ -11,7 +11,7 @@ export default class ArtistCard extends Component {
     return (
       <Fragment >
         <div className='artist-bio'>
-          <img className='artist-images' alt={ full_name } src={ ${ process.env.PUBLIC_URL }${ image } }/>
+          <img className='artist-images' alt={ full_name } src={ `${ process.env.PUBLIC_URL }`{ image } }/>
           <h3>{ full_name }</h3>
           <p>{ bio }</p>
         </div>
