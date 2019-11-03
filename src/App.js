@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 import MainContainer from './Containers/MainContainer'
 import ArtistContainer from './Containers/ArtistContainer'
-import Contact from './Components/Contact'
+import Faq from './Components/Faq'
 import About from './Components/About'
 import { Switch, Route } from 'react-router-dom'
 
@@ -23,8 +23,8 @@ export default class App extends Component {
             component={ About }
           />
           <Route
-            path="/contact"
-            component={ Contact }
+            path="/faq"
+            component={ Faq }
           />
           <Route
             path="/"
