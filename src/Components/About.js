@@ -9,7 +9,7 @@ export default class About extends Component {
       <Fragment >
         <NavBar />
         <div className='about-section'>
-          <img className='about-image' src={`${process.env.PUBLIC_URL}/images/faq.jpg`} alt='glassmoontattoo'/>
+          <img className='about-image' src={`${process.env.PUBLIC_URL}/images/about.jpg`} alt='glassmoontattoo'/>
           <h3>ABOUT</h3>
           <p className='about-text'>Glass Moon Tattoo is a women owned and operated private tattoo studio in Denver, Colorado. At Glass Moon we seek to provide a unique, comfortable space where everyone feels welcomed. We strive to design custom tattoos of the highest quality and provide clients with an experience they can enjoy for a lifetime. To inquire about booking an appointment please visit our Artist page. </p>
         </div>
