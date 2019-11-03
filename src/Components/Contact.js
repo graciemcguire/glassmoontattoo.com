@@ -3,14 +3,14 @@ import NavBar from './NavBar'
 import instaLogo from '../insta.svg'
 import emailLogo from '../email.svg'
 
-export default class Contact extends Component {
+export default class FAQ extends Component {
   render(){
     return(
       <Fragment >
         <NavBar />
         <div className='about-section'>
           <img className='about-image' src={`${process.env.PUBLIC_URL}/images/contact.jpg`} alt='glassmoontattoo'/>
-          <h3>CONTACT</h3>
+          <h3>FAQ</h3>
           <p className='about-text'>De possumus arbitrantur o ex si velit elit ipsum. Noster voluptate ut
             imitarentur ita id aute mentitum. Legam proident sempiternum, iis ullamco
             coniunctione ea excepteur se cillum voluptate, magna id appellat in o et amet
