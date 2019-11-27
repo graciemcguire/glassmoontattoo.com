@@ -5,7 +5,7 @@ import emailLogo from '../email.svg'
 export default class ArtistCard extends Component {
   render() {
 
-    const { first_name, last_name, email, image, bio, instagram, pronouns } = this.props.artist
+    const { first_name, last_name, email, image, bio, instagram, pronouns, booking } = this.props.artist
     const full_name = `${first_name} ${last_name}`
 
     return (
@@ -15,6 +15,7 @@ export default class ArtistCard extends Component {
           <h3>{ full_name }</h3>
           <p>{ bio }</p>
           <p>{ pronouns }</p>
+          <p>{ booking }</p>
         </div>
 
         <div className= 'links'>
