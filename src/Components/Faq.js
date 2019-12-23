@@ -2,12 +2,14 @@ import React, { Component, Fragment } from 'react';
 import NavBar from './NavBar'
 import instaLogo from '../insta.svg'
 import emailLogo from '../email.svg'
+import AccordianSection from './AccordianSection.js'
 
 export default class Faq extends Component {
   render(){
     return(
       <Fragment >
         <NavBar />
+        <AccordianSection />
         <div className='about-section'>
           <img className='about-image' src={`${process.env.PUBLIC_URL}/images/faq.jpg`} alt='glassmoontattoo'/>
           <h3>FAQ</h3>
