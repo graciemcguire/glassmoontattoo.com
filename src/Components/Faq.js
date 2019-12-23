@@ -9,7 +9,6 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
-// import 'react-accessible-accordion/dist/fancy-example.css';
 
 
 export default class Faq extends Component {
@@ -59,19 +58,6 @@ export default class Faq extends Component {
               <AccordionItemPanel className='accordion-panel'>
                 <p>
                 Because Glass Moon is an appointment only studio we do not have set hours; while our schedules are somewhat consistent they tend to vary a bit week to week and we cannot guarantee that an artist will be present in the shop if you do not have an appointment.
-                </p>
-              </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem>
-              <AccordionItemHeading>
-                <AccordionItemButton>
-                    Where are you located?
-                </AccordionItemButton>
-              </AccordionItemHeading>
-              <AccordionItemPanel className='accordion-panel'>
-                <p>
-                  1151 s Huron st, Denver CO, 80223
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
