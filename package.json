@@ -4,14 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "instafeed.js": "^1.4.1",
-    "node-sass": "^4.12.0",
-    "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-accessible-accordion": "^3.0.1",
     "react-dom": "^16.8.6",
-    "react-instafeed": "^1.0.0",
-    "react-instagram-embed": "^1.5.0",
-    "react-responsive-carousel": "^3.1.50",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
