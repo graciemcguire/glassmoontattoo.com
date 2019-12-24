@@ -58,6 +58,7 @@ img {
 
 .home-nav-links:hover {
   cursor: pointer;
+  color: #1DC1A9;
 }
 
 .about-section{
@@ -143,6 +144,13 @@ img {
     width: 10px;
     /* margin-right: 12px; */
     transform: rotate(-45deg);
+}
+
+.accordion__button:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: #1DC1A9;
+    outline-style: auto;
+    outline-width: 5px;
 }
 
 .accordion__button[aria-expanded='true']::before,
