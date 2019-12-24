@@ -147,7 +147,7 @@ img {
 }
 
 .accordion__button:focus {
-    outline: -webkit-focus-ring-color auto 5px;
+    /* outline: -webkit-focus-ring-color auto 5px; */
     outline-color: #1DC1A9;
     outline-style: auto;
     outline-width: 5px;
