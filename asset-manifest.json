@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ed7b298.chunk.css",
+    "main.css": "/static/css/main.66fa7629.chunk.css",
     "main.js": "/static/js/main.0cfeb245.chunk.js",
     "main.js.map": "/static/js/main.0cfeb245.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.641f22f6.chunk.js": "/static/js/2.641f22f6.chunk.js",
     "static/js/2.641f22f6.chunk.js.map": "/static/js/2.641f22f6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ec31c843ac3766de3eb38f6c23538912.js": "/precache-manifest.ec31c843ac3766de3eb38f6c23538912.js",
+    "precache-manifest.3ec18ab4b5197233b14ab4ac98d60c8b.js": "/precache-manifest.3ec18ab4b5197233b14ab4ac98d60c8b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4ed7b298.chunk.css.map": "/static/css/main.4ed7b298.chunk.css.map",
+    "static/css/main.66fa7629.chunk.css.map": "/static/css/main.66fa7629.chunk.css.map",
     "static/media/email.svg": "/static/media/email.69680383.svg",
     "static/media/insta.svg": "/static/media/insta.954d2e21.svg",
     "static/media/logo.png": "/static/media/logo.86f0c529.png"
