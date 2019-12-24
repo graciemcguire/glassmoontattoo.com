@@ -100,7 +100,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
 .link-images {
   width: 2em;
   height: 1em;
@@ -149,10 +148,9 @@ img {
 
 .accordion__button:focus {
     /* outline: -webkit-focus-ring-color auto 5px; */
-    outline: none
-    /* outline-color: #1DC1A9;
+    outline-color: #1DC1A9;
     outline-style: auto;
-    outline-width: 5px; */
+    outline-width: 5px;
 }
 
 .accordion__button[aria-expanded='true']::before,
@@ -176,7 +174,6 @@ img {
   margin: 0 auto;
   max-width: 450px;
   margin-bottom: 20px;
-  margin: 1em;
 }
 
 .faq {
@@ -184,10 +181,11 @@ img {
   background-color:rgb(237,222,220);
   max-width: 324px;
   color: #444;
-}
-
-p {
-  margin: 1em;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 /* -------------------------------------------------- */
 /* ---------------- Animation part ------------------ */
