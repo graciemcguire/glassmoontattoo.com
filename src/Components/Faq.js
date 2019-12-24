@@ -26,7 +26,7 @@ export default class Faq extends Component {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
-                  Where are you located?
+                  <strong>Where are you located?</strong>
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className='accordion-panel' className='accordion-panel'>
@@ -39,7 +39,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                    Do you take walk-ins?
+                    <strong>Do you take walk-ins?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -52,7 +52,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                    What are your hours?
+                    <strong>What are your hours?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -65,7 +65,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                    How much will my tattoo cost?
+                    <strong>How much will my tattoo cost?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -78,7 +78,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                    Are deposits required?
+                    <strong>Are deposits required?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -91,7 +91,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                    How old do you have to be to get tattooed?
+                    <strong>How old do you have to be to get tattooed?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -104,7 +104,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  How can I make an appointment?
+                  <strong>How can I make an appointment?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -117,7 +117,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  Can I bring my friends with me to my appointment?
+                  <strong>Can I bring my friends with me to my appointment?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -130,7 +130,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  Will you tattoo my neck/face/hands?
+                  <strong>Will you tattoo my neck/face/hands?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -143,7 +143,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  Do you take on all tattoo projects/ideas?
+                  <strong>Do you take on all tattoo projects/ideas?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel'>
@@ -156,7 +156,7 @@ export default class Faq extends Component {
             <AccordionItem>
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  How do I heal my tattoo and how long does it take?
+                  <strong>How do I heal my tattoo and how long does it take?</strong>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel className='accordion-panel-healing'>
