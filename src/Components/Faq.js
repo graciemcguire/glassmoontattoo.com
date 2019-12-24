@@ -31,7 +31,7 @@ export default class Faq extends Component {
             </AccordionItemHeading>
             <AccordionItemPanel className='accordion-panel' className='accordion-panel'>
               <p className='faq-a'>
-                1151 s Huron st, Denver CO, 80223
+                1151 S. Huron St, Denver CO, 80223
               </p>
             </AccordionItemPanel>
           </AccordionItem>
