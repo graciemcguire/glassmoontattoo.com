@@ -159,7 +159,7 @@ export default class Faq extends Component {
                   How do I heal my tattoo and how long does it take?
                 </AccordionItemButton>
               </AccordionItemHeading>
-              <AccordionItemPanel className='accordion-panel'>
+              <AccordionItemPanel>
               <ul>
                 <li>If you are healing your tattoo with second skin (tegaderm, saniderm) you can leave this bandage on for 3 to 4 days as long as it is fully sealed and has no leakage.  Fluid build up under the bandage is normal but if it leaks out of the bandage the bandage should be removed.</li>
 
