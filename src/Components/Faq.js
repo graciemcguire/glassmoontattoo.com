@@ -153,38 +153,6 @@ export default class Faq extends Component {
               </AccordionItemPanel>
             </AccordionItem>
 
-            <AccordionItem>
-              <AccordionItemHeading>
-                <AccordionItemButton>
-                  <p className='faq'>How do I heal my tattoo and how long does it take?</p>
-                </AccordionItemButton>
-              </AccordionItemHeading>
-              <AccordionItemPanel className='accordion-panel-healing'>
-              <ul className='faq-a'>
-                <li>If you are healing your tattoo with second skin (tegaderm, saniderm) you can leave this bandage on for 3 to 4 days as long as it is fully sealed and has no leakage.  Fluid build up under the bandage is normal but if it leaks out of the bandage the bandage should be removed.</li>
-
-                <li>After the 3-4 days remove the second skin when you are in the shower, clean the tattoo with soapy water (dr. Bronner’s soap preferred) and let the tattoo dry completely.  Apply a layer of unscented lotion to tattoo and rub it all the way in.</li>
-
-                <li>Continue to apply lotion 2-3 times throughout the day</li>
-
-                <li>Wash your tattoo again at night, let dry and apply lotion.</li>
-
-                <li>Repeat this process for the following 1.5 weeks or until the tattoo is healed (feels like regular skin again)</li>
-
-                <li>If you are healing your tattoo without second skin, leave the bandage on for 4-6 hours post tattoo, remove the bandage and wash your tattoo gently with soapy water let tattoo dry out all the way (you may use a dry, clean paper towel) apply a thin layer of aquaphor and rub it in all the way, please do not smother your tattoo!</li>
-
-                <li>Wash your tattoo 3 times a day for the following 5 days and apply a thin layer of aquaphor once the tattoo has dried each time. after those 5 days you should switch to unscented lotion  and follow on from step 3 in this list.</li>
-
-                <li>Never touch your tattoo with dirty hands, keep your pets and pet dander away from a fresh tattoo, do not go in a hot tub, pool or ANY bodies of water while it is healing.</li>
-
-                <li>If your tattoo scabs at all do not pick at the scabs as it will remove the pigment, scabs will heal on their own and retain pigment if they are not messed with.</li>
-
-                <p className='about-text'>If at any point you have any questions please ask your artist before you ask google!</p>
-
-              </ul>
-              </AccordionItemPanel>
-            </AccordionItem>
-
         </Accordion>
 
         <div className= 'links'>

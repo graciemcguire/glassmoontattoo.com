@@ -13,6 +13,7 @@ class NavBar extends Component {
             <Link className='nav-link' to={ '/' }> HOME </Link>|
             <Link className='nav-link' to={ '/about' }> ABOUT </Link>|
             <Link className='nav-link' to={ '/artists' }> ARTISTS </Link>|
+            <Link className='nav-link' to={ '/healing' }> HEALING </Link>|
             <Link className='nav-link' to={ '/faq' }> FAQ </Link>
         </div>
       </div>
