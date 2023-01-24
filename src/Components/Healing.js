@@ -73,9 +73,7 @@ export default class Healing extends Component {
                 <li>
                   Do not at any point expose your healing tattoo to direct
                   sunlight, if you plan to be in the sun make sure to keep your
-                  tattoo fully coveredDo not at any point expose your healing
-                  tattoo to direct sunlight, if you plan to be in the sun make
-                  sure to keep your tattoo fully covered.
+                  tattoo fully covered.
                 </li>
                 <br/>
 
